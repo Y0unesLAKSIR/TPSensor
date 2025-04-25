@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_sensors"
+            android:title="@string/menu_list" />
+        <item
+            android:id="@+id/nav_temp"
+            android:icon="@mipmap/temp"
+            android:title="@string/menu_temp" />
+        <item
+            android:id="@+id/nav_humd"
+            android:icon="@mipmap/humd"
+            android:title="@string/menu_humid" />
+
+        <item
+            android:id="@+id/nav_proximity"
+            android:icon="@mipmap/proximity"
+            android:title="@string/menu_proximity" />
+        <item
+            android:id="@+id/nav_magnetic"
+            android:icon="@mipmap/magnetic"
+            android:title="@string/menu_magnetic" />
+
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@mipmap/compass"
+            android:title="@string/menu_compass" />
+
+        <item
+            android:id="@+id/nav_movement"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/menu_movement" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+
+        </menu>
+    </item>
+
+</menu>
